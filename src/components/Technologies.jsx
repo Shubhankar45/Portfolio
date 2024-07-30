@@ -33,7 +33,7 @@ const Technologies = () => {
 
   return (
     <div className="border-b border-neutral-800 pb-24">
-      <h2 className="my-20 text-center text-4xl">Technologies</h2>
+      <h2 className="my-20 text-center text-4xl font-serif">Technologies</h2>
       <div className="flex flex-wrap items-center justify-center gap-4">
         <motion.div className="rounded-2xl border-2 border-neutral-50 p-4" variants={upVariants} animate="animate">
           <RiReactjsLine className="text-6xl text-cyan-400" />

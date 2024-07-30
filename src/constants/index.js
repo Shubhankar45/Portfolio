@@ -13,28 +13,28 @@ export const PROJECTS = [
     title: "Music Player",
     image: project1,
     description:
-      "A simple music player that plays music ",
+      "The Music Player is a web-based application that allows users to play, pause, skip, and manage their music library. The application will support various features such as playlist creation, song search, and user authentication.",
     technologies: ["HTML", "CSS", "Javascript"],
   },
   {
     title: "Food Delivery Website",
     image: project2,
     description:
-      "An application for ordering online food.Fully functional Food delivery app ",
+      "The Food Delivery Website is an online platform that connects users with local restaurants for ordering food. The platform allows users to browse restaurant menus, place orders, and track delivery status.  ",
     technologies: ["MongoDB", "Expressjs", "Reactjs", "Nodejs "],
   },
   {
     title: "MediCare",
     image: project3,
     description:
-      "Hospital Management Web app that check if a patient is corona positive or not and give him prescription",
+      "This Medicare web application provides users with tools to manage their Medicare benefits, check for coronavirus symptoms, and handle prescriptions. It includes user authentication, health tracking, and prescription management features.",
     technologies: ["MongoDB","Expressjs","Reactjs","Nodejs"],
   },
   {
     title: "Vulnerability Scanner",
     image: project4,
     description:
-      "A platform for scanning ip and to fixed the vulnerable port ",
+      "The Vulnerability Scanner is a java application designed to identify and report security vulnerabilities in networked systems. It leverages Nmap for network scanning and Nessus for vulnerability assessment, providing a comprehensive view of potential security risks",
     technologies: ["Java","Nessus","NMap"],
   },
 ];

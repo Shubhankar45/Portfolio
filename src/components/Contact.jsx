@@ -4,7 +4,9 @@ import { motion } from "framer-motion";
 const Contact = () => {
   return (
     <div className="border-b border-neutral-900 pb-20">
-      <h2 className="my-10 text-center text-4xl">Get In Touch</h2>
+      <h2 className="my-10 text-center text-4xl font-serif">Get
+      <span className="text-neutral-500">In Touch</span>
+      </h2>
       <motion.div 
         className="text-center tracking-tighter"
         initial="hidden"

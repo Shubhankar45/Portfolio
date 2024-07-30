@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const About = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
-      <h2 className="my-20 text-center text-4xl">
+      <h2 className="my-20 text-center text-4xl font-serif">
         About
         <span className="text-neutral-500">Me</span>
       </h2>
@@ -27,7 +27,7 @@ const About = () => {
           transition={{ duration: 1 }}
         >
           <div className="flex justify-center lg:justify-start">
-            <p className="my-2 maxw-xl py-6">{ABOUT_TEXT}</p>
+            <p className="my-2 maxw-xl py-6 font-mono text-base">{ABOUT_TEXT}</p>
           </div>
         </motion.div>
       </div>

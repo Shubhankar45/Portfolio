@@ -38,7 +38,7 @@ const Hero = () => {
               Full-Stack Developer
             </motion.span>
             <motion.p 
-              className="my-2 max-w-xl py-6 font-light tracking-tighter"
+              className="my-2 max-w-xl py-6 font-light tracking-tighter font-mono text-base"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 1, delay: 0.6 }}
